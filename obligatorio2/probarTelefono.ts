@@ -20,10 +20,3 @@ console.log(telefono1.mandarMensaje())
 console.log(telefono1.hacerLlamada(2983777777))
 console.log(telefono3.sacarFotos())
 console.log(telefono4.verFrecuenciaActual())
-
-
-
-
-
-
-
