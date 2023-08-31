@@ -1,0 +1,14 @@
+1-Los beneficios de el lenguaje con tipos son:
+-Que el codigo sea mas entendible para todo el que lo lea.
+-Permite identificar la caracteristica principal de la variable que estemos manejando.
+-Pide mas chequeos al momento de escribir el codigo para que haya mas seguridad en el mismo.
+
+2-Una variable interna es son variables que estan dentro de un objeto las cuales muestran los diferentes estados en lo que esta el mismo. Se consideran internas porque solo pueden ser usadas si el objeto que las contiene esta implicado en el codigo.
+
+3-La composicion se centra principalmente en crear clases mas simples con las cuales vas a crear clases mas complejas, en cambio las clases creadas por herencia generalizan las caracteristicas de un objeto principal a otros que compartan esos mismo.
+
+4-Las caracteristicas de las interfaces son:
+-Sirve para garantizar que una clase haga lo que este en la interfaz sin importa como lo haga.
+-Con una interfaz podemos plantear que deberia hacer una clase para tener una idea mas clara al momento de crear los metodos de la misma.
+-Los metodos definidos en una interfaz deberan ser cumplidos en la clase que los implemente sino la misma no funcionara.
+

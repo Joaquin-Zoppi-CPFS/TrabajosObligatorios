@@ -1,0 +1,12 @@
+"use strict";
+exports.__esModule = true;
+var kiosko_1 = require("./kiosko");
+var cargarStock_1 = require("./cargarStock");
+var item1 = new kiosko_1.Kiosko("Paquete de masitas", 15, 200, false);
+var item2 = new kiosko_1.Kiosko("Botella de agua", 0, 300, true);
+var item3 = new kiosko_1.Kiosko("Lata de speed", 0, 430, true);
+var item4 = new kiosko_1.Kiosko("Paquete de gomitas", 10, 50, false);
+var item5 = new kiosko_1.Kiosko("Paquete de papas fritas", 30, 500, false);
+var productos = [item1, item2, item3, item4, item5];
+var stockTotal = new cargarStock_1.CargarStock(productos);
+stockTotal.consultarEstado();
