@@ -7,7 +7,7 @@ export class CargarStock {
         this.stock = stock;
     }
 
-    consultarEstado(){
+    public consultarEstado(){
         for (let i = 0; i < this.stock.length; i++) {
             if (this.stock[i].getCantidad() <= 0) {
                 console.log("El producto "+ this.stock[i].getItem() +" esta agotado");
